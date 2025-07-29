@@ -1,0 +1,127 @@
+/* WalletConnector.css - iOS Inspired Minimal UI */
+
+.wallet-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f6f7f9;
+  padding: 20px;
+}
+
+.wallet-card {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 28px;
+  transition: all 0.3s ease;
+}
+
+.wallet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.wallet-header h2 {
+  font-size: 1.5rem;
+  color: #111;
+  font-weight: 600;
+}
+
+.wallet-status {
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background-color: #dcdcdc;
+  color: #555;
+  text-transform: uppercase;
+}
+
+.wallet-status.connected {
+  background-color: #007aff1a;
+  color: #007aff;
+}
+
+.wallet-info {
+  font-size: 0.95rem;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.wallet-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.wallet-actions button,
+.connect-btn {
+  flex: 1;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 12px;
+  transition: background 0.2s ease;
+  cursor: pointer;
+}
+
+.wallet-actions .secondary {
+  background-color: #e5e5ea;
+  color: #000;
+}
+
+.wallet-actions button:hover,
+.connect-btn:hover {
+  background-color: #005fc1;
+}
+
+.connect-btn {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.wallet-error {
+  margin-top: 16px;
+  background-color: #ff3b30;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  text-align: center;
+}
+.wallet-address-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #f2f2f7;
+  padding: 10px 14px;
+  border-radius: 12px;
+  word-break: break-all;
+}
+
+.copy-btn {
+  background-color: #007aff;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  font-weight: 500;
+}
+
+.copy-btn:hover {
+  background-color: #005fc1;
+}
