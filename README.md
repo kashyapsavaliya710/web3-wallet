@@ -20,7 +20,7 @@ This project demonstrates my capability to design clean, modern, and user-friend
 
 ## 🖥️ Live Demo
 
->  [Netlify](https://www.netlify.com/)  
+>  [netlify/web3-connectt]([https://www.netlify.com/](https://we3-connectt.netlify.app/))  
 
 ---
 
